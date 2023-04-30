@@ -1,0 +1,28 @@
+.mainHeader {
+  height: 80px;
+  -webkit-box-shadow: 0 5px 5px -5px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 0 5px 5px -5px rgba(34, 60, 80, 0.6);
+  box-shadow: 0 5px 5px -5px rgba(34, 60, 80, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.mainHeader h3 {
+  font-size: 25px;
+}
+
+.navWrapper a {
+  margin-right: 10px;
+  transition: color 0.15s ease;
+}
+
+.navWrapper a:hover {
+  color: #46ffff;
+}
+
+.logo {
+  font-size: 25px;
+}

@@ -1,0 +1,19 @@
+.contactWrapper {
+  width: 1140px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titleWrapper {
+  margin-bottom: 30px;
+}
+.titleWrapper h3 {
+  color: #1271ea;
+  font-size: 23px;
+
+}
+.titleWrapper h2 {
+  font-size: 30px;
+}

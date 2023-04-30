@@ -1,0 +1,28 @@
+.contactWidgetWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.imgWrapper {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0 0 12px 6px rgba(34, 60, 80, 0.08);
+  -moz-box-shadow: 0 0 12px 6px rgba(34, 60, 80, 0.08);
+  box-shadow: 0 0 12px 6px rgba(34, 60, 80, 0.08);
+  margin-right: 20px;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.copyWrapper {
+  display: flex;
+  gap: 3px;
+}

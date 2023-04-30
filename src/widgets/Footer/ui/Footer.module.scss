@@ -1,0 +1,29 @@
+.footerWrapper {
+  height: 120px;
+  background-color: #312e2e;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSection {
+  width: 1140px;
+  color: white;
+}
+
+.mainSection h2 {
+  font-size: 20px;
+}
+
+.iconWrapper {
+
+}
+
+.icon {
+  margin-right: 20px;
+  transition: transform 0.2s ease;
+}
+.icon:hover {
+  transform: scale(1.1);
+}
