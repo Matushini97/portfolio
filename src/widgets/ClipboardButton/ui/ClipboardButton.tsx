@@ -3,7 +3,11 @@ import copyIcon from "../../../../public/copy.png";
 import doneIcon from "../../../../public/done.png";
 import {useState} from "react";
 
-function ClipboardButton(props) {
+type ClipboardButtonPropsType = {
+  text: string
+}
+
+function ClipboardButton(props: ClipboardButtonPropsType) {
 
   const [icon, setIcon] = useState<string>(copyIcon)
 
