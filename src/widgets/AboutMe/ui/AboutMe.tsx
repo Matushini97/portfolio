@@ -3,9 +3,9 @@ import aboutMe from "../../../assets/abou-me-pic.jpg";
 
 const AboutMe = () => {
   return (
-    <section className={s.aboutSection}>
+    <section>
       <div className={s.aboutMeWrapper}>
-        <div className={`${s.imgWrapper} ${s.box1}`}>
+        <div className={`${s.imgWrapper}`}>
           <img src={aboutMe} alt="Photo by Rahul Chakraborty on Unsplash" />
           <div className={s.loaderWrapper}></div>
           <div className={s.loaderBlue}>
@@ -15,7 +15,7 @@ const AboutMe = () => {
             <span></span>
           </div>
         </div>
-        <div className={`${s.titleWrapper} ${s.box2}`}>
+        <div className={`${s.titleWrapper}`}>
           <h3>About me</h3>
           <h2>Dedicated Front-end Developer based in Hrodno, Belarus 📍</h2>
           <p>

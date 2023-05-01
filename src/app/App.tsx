@@ -7,9 +7,7 @@ function App() {
   return (
     <div className="app-wrapper">
       <Navbar />
-      <div className="main-wrapper">
-        <Main />
-      </div>
+      <Main />
       <Footer />
     </div>
   );

@@ -19,7 +19,7 @@ const ContactWidget: FC<ContactWidget> = (props) => {
   return (
     <div className={s.contactWidgetWrapper}>
       <div className={s.imgWrapper}>
-        <img src={src === "mail" ? mailIcon : ""} alt={titleInfo} />
+        <img src={src === "mail" ? mailIcon : ""} alt={titleInfo} id={s.mailIcon}/>
       </div>
       <div className={s.infoWrapper}>
         <h3>{titleInfo}</h3>

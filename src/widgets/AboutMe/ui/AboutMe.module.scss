@@ -1,16 +1,9 @@
-.aboutSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-}
-
 .aboutMeWrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 350px;
-  width: var(--main-width);
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .titleWrapper {
@@ -24,8 +17,8 @@
 }
 
 .titleWrapper h2 {
-  font-size: 30px;
-  margin-bottom: var(--font-size-l);
+  font-size: var(--font-size-l);
+  margin-bottom: 20px;
 }
 
 .imgWrapper {
@@ -39,14 +32,6 @@
 .imgWrapper img {
   width: 85%;
   border-radius: 10px;
-}
-
-.box1 {
-  order: 1;
-}
-
-.box2 {
-  order: 2;
 }
 
 .loaderWrapper {
@@ -118,6 +103,54 @@
   to {
     transform: translate(-50%, -50%) rotate(360deg);
   }
+}
+
+ //Мобильные устройства */
+@media (max-width: 360px) {
+  .aboutMeWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .loaderBlue, .loaderWrapper {
+    display: none;
+  }
+
+  .titleWrapper {
+    width: 320px;
+    margin-bottom: 0;
+  }
+
+  .titleWrapper h3 {
+    color: #1271ea;
+    font-size: var(--font-size-ss);
+    margin-bottom: 5px;
+  }
+
+  .titleWrapper h2 {
+    font-size: var(--font-size-s);
+    margin-bottom: 15px;
+  }
+
+  .titleWrapper p {
+    font-size: var(--font-size-p);
+  }
+
+  .imgWrapper {
+    margin-bottom: 30px;
+    width: 320px;
+  }
+
+  .imgWrapper img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+}
+
+/* Планшеты */
+@media (min-width: 768px) {
+  /* Стили для экранов шириной 768px и более */
 }
 
 

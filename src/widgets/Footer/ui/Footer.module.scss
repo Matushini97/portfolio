@@ -31,5 +31,32 @@
 .infoWrapper {
   display: flex;
   justify-content: space-between;
-  width: var(--main-width);
+  min-width: var(--main-width);
+}
+
+@media (max-width: 360px) {
+  .infoWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+
+  }
+  .mainSection {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 4px;
+  }
+
+  .icon {
+    margin-right: 20px;
+    transition: transform 0.2s ease;
+    width: 40px;
+  }
+
+  .mainSection h2 {
+    font-size: 12px;
+  }
 }
