@@ -1,4 +1,4 @@
-import "../App.scss";
+import "./styles/App.scss";
 import { Navbar } from "../widgets/Navbar";
 import { Footer } from "../widgets/Footer";
 import { Main } from "../widgets/Main";
