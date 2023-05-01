@@ -1,5 +1,5 @@
 import s from "./ContactWidget.module.scss";
-import mailIcon from "../../../../public/mail-icon.svg";
+import mailIcon from "../../../assets/mail-icon.svg";
 import { FC } from "react";
 import { ClipboardButton } from "../../ClipboardButton";
 
@@ -10,7 +10,12 @@ type ContactWidget = {
 };
 
 const ContactWidget: FC<ContactWidget> = (props) => {
+
   const { titleInfo, src, info } = props;
+  const copyButton = (
+      <ClipboardButton text={info} />
+
+  )
   return (
     <div className={s.contactWidgetWrapper}>
       <div className={s.imgWrapper}>
@@ -20,7 +25,7 @@ const ContactWidget: FC<ContactWidget> = (props) => {
         <h3>{titleInfo}</h3>
         <div className={s.copyWrapper}>
           <h3>{info}</h3>
-          {src === "mail" && <ClipboardButton text={info} />}
+          {src === "mail" && copyButton}
         </div>
       </div>
     </div>
