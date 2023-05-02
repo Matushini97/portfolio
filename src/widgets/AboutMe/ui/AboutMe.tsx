@@ -1,5 +1,5 @@
 import s from "./AboutMe.module.scss";
-import aboutMe from "../../../assets/abou-me-pic.jpg";
+import aboutMe from "src/assets/abou-me-pic.jpg";
 
 const AboutMe = () => {
   return (

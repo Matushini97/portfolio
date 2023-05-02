@@ -1,0 +1,51 @@
+.contentSection {
+  padding: 30px 0;
+}
+
+.upperWrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.infoWrapper {
+  width: 48%;
+}
+
+.iconWrapper {
+
+}
+
+.icon {
+
+}
+
+.infoWrapper h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.infoWrapper h2 {
+  font-size: var(--font-size-ss);
+}
+
+.photoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+}
+
+.photoWrapper img {
+  position: absolute;
+  top: -20px;
+}
+
+.stackWrapper {
+
+}

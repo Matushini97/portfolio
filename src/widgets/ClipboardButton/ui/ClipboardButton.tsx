@@ -1,6 +1,6 @@
 import s from "./ClipboardButton.module.scss";
-import copyIcon from "../../../assets/copy.svg";
-import doneIcon from "../../../assets/done.svg";
+import copyIcon from "src/assets/copy.svg";
+import doneIcon from "src/assets/done.svg";
 import {useState} from "react";
 
 type ClipboardButtonPropsType = {

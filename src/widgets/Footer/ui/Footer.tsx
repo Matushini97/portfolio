@@ -1,7 +1,7 @@
 import s from "./Footer.module.scss";
-import github from "../../../assets/github-icon.svg";
-import linkedin from "../../../assets/linkedin-icon.svg";
-import tg from "../../../assets/tg-icon.svg"
+import github from "src/assets/github-icon.svg";
+import linkedin from "src/assets/linkedin-icon.svg";
+import tg from "src/assets/tg-icon.svg"
 
 const Footer = () => {
   return (
