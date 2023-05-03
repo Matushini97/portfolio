@@ -40,7 +40,7 @@ const Content = () => {
         </div>
       </div>
       <div className={s.stackWrapper}>
-        <h2>Tech Stack<span className={s.stick}> |</span></h2>
+        <h2>Tech Stack:</h2>
         <Stack />
       </div>
     </section>
