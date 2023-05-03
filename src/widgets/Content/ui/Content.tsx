@@ -1,9 +1,11 @@
 import s from "./Content.module.scss";
 import avatar from 'src/assets/ava.jpg'
-import {useAppSelector} from "src/shared/Hooks/hooks";
+import {RootState} from "store/store";
+import {SocialsType} from "store/socialsSlice";
+import {useSelector} from "react-redux";
 
 const Content = () => {
-    const socials = useAppSelector((state) => state.socials.socials);
+    const socials = useSelector<RootState,SocialsType[] >((state) => state.socials.socials);
     return (
       <section className={s.contentSection}>
         <div className={s.upperWrapper}>

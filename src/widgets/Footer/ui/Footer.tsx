@@ -1,9 +1,10 @@
 import s from "./Footer.module.scss";
-
-import {useAppSelector} from "src/shared/Hooks/hooks";
+import {SocialsType} from "store/socialsSlice";
+import {useSelector} from "react-redux";
+import {RootState} from "store/store";
 
 const Footer = () => {
-  const socials = useAppSelector((state) => state.socials.socials);
+  const socials = useSelector<RootState,SocialsType[]>((state) => state.socials.socials);
   return (
     <footer className={s.footerWrapper}>
       <div className={s.infoWrapper}>
