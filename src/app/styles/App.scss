@@ -9,4 +9,16 @@
   flex: 1 1 auto;
 }
 
+.icon {
+  margin-right: 20px;
+  transition: transform 0.2s ease;
+  width: 40px;
+}
 
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.black {
+  filter: hue-rotate(180deg);
+}
