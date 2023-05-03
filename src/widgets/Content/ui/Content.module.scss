@@ -16,7 +16,8 @@
 }
 
 .iconWrapper {
-
+  display: flex;
+  gap: 10px;
 }
 
 .icon {
@@ -59,4 +60,57 @@
 
 .textWrapper {
   margin-bottom: 60px;
+}
+
+.stick {
+  display: block;
+}
+
+@media (max-width: 360px) {
+  .upperWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .infoWrapper {
+    width: 100%;
+  }
+
+  .textWrapper {
+    margin-bottom: 30px;
+  }
+
+  .textWrapper h1 {
+    font-size: var(--font-size-m);
+  }
+
+  .textWrapper h2 {
+    font-size: var(--font-size-ss);
+  }
+
+  .iconWrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .stackWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .stick {
+    display: none;
+  }
+
+  .stackWrapper h2 {
+    margin-right: 0;
+  }
+
+  .contentSection {
+    padding: 20px 0 0 0;
+    margin-bottom: 0;
+  }
 }
