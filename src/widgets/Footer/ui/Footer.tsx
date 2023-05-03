@@ -1,8 +1,9 @@
 import s from "./Footer.module.scss";
-import { useSelector } from "react-redux";
+
+import {useAppSelector} from "src/shared/Hooks/hooks";
 
 const Footer = () => {
-  const socials = useSelector((state) => state.socials.socials);
+  const socials = useAppSelector((state) => state.socials.socials);
   return (
     <footer className={s.footerWrapper}>
       <div className={s.infoWrapper}>
@@ -10,7 +11,7 @@ const Footer = () => {
           <h2>Copyright © 2023. All rights are reserved</h2>
         </div>
         <div className={s.iconWrapper}>
-          {socials.map((social, index) => {
+          {socials.map((social, index: number) => {
             return (
               <a key={index} href={social.link} target="_blank">
                 <img

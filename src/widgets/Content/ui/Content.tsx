@@ -1,9 +1,9 @@
 import s from "./Content.module.scss";
 import avatar from 'src/assets/ava.jpg'
-import {useSelector} from "react-redux";
+import {useAppSelector} from "src/shared/Hooks/hooks";
 
 const Content = () => {
-    const socials = useSelector((state) => state.socials.socials);
+    const socials = useAppSelector((state) => state.socials.socials);
     return (
       <section className={s.contentSection}>
         <div className={s.upperWrapper}>
@@ -16,7 +16,7 @@ const Content = () => {
               </h2>
             </div>
             <div className={s.iconWrapper}>
-              {socials.map((social, index) => {
+              {socials.map((social, index: number) => {
                 return (
                   <a key={index} href={social.link} target="_blank">
                     <img

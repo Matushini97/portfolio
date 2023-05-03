@@ -6,3 +6,6 @@ export const store = configureStore({
         socials: socialsReducer
     }
 })
+
+export type RootState = ReturnType<typeof store.getState>
+export type AppDispatch = typeof store.dispatch
