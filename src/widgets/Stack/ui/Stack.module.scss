@@ -1,0 +1,18 @@
+.stackWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.stackElWrapper {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(238, 239, 245, 0.67);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stackElWrapper img {
+  width: 40px;
+}

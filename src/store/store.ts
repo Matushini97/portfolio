@@ -1,9 +1,11 @@
 import {configureStore} from "@reduxjs/toolkit";
 import {socialsReducer} from './socialsSlice'
+import {stackReducer} from "./stackSlice";
 
 export const store = configureStore({
     reducer: {
-        socials: socialsReducer
+        socials: socialsReducer,
+        stack: stackReducer
     }
 })
 

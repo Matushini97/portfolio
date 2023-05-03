@@ -7,6 +7,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
+  margin-bottom: 50px;
 }
 
 .infoWrapper {
@@ -47,7 +48,12 @@
 }
 
 .stackWrapper {
+  display: flex;
+  align-items: center;
+}
 
+.stackWrapper h2 {
+  margin-right: 50px;
 }
 
 .textWrapper {
