@@ -1,10 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
-import github from "assets/icons/github-icon.svg";
-import linkedin from "assets/icons/linkedin-icon.svg";
-import tg from "assets/icons/tg-icon.svg";
-import githubBl from "assets/icons/github-icon-black.svg";
-import linkedinBl from "assets/icons/linkedin-icon-black.svg";
-import tgBl from "assets/icons/tg-icon-black.svg";
+import github from "../assets/icons/github-icon.svg";
+import linkedin from "../assets/icons/linkedin-icon.svg";
+import tg from "../assets/icons/tg-icon.svg";
+import githubBl from "../assets/icons/github-icon-black.svg";
+import linkedinBl from "../assets/icons/linkedin-icon-black.svg";
+import tgBl from "../assets/icons/tg-icon-black.svg";
 
 export type SocialsType = {
   name: string,
