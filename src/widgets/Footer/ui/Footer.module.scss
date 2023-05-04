@@ -26,7 +26,7 @@
   min-width: var(--main-width);
 }
 
-@media (max-width: 360px) {
+@media screen and (min-width: 360px) and (max-width: 400px) {
   .infoWrapper {
     display: flex;
     flex-direction: column;

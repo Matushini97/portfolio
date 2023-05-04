@@ -1,9 +1,9 @@
 import s from "./Content.module.scss";
-import avatar from 'src/assets/ava.jpg'
-import {RootState} from "store/store";
-import {SocialsType} from "store/socialsSlice";
-import {useSelector} from "react-redux";
-import {Stack} from "../../Stack";
+import avatar from "src/assets/ava.jpg";
+import { RootState } from "store/store";
+import { SocialsType } from "store/socialsSlice";
+import { useSelector } from "react-redux";
+import { Stack } from "../../Stack";
 
 const Content = () => {
   const socials = useSelector<RootState, SocialsType[]>(

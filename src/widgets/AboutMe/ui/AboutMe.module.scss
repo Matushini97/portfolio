@@ -3,16 +3,22 @@
 }
 
 .aboutMeWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+  //flex-wrap: wrap;
+  //gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0;
   flex-wrap: wrap;
-  gap: 30px;
 }
 
 .titleWrapper {
   margin-bottom: 30px;
-  width: 48%;
+
 }
 
 .titleWrapper h3 {
@@ -26,7 +32,6 @@
 }
 
 .imgWrapper {
-  width: 48%;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -110,17 +115,18 @@
 }
 
  //Мобильные устройства */
-@media (max-width: 360px) {
+@media screen and (min-width: 360px) and (max-width: 400px) {
   .aboutMeWrapper {
     display: flex;
-    gap: 0;
+    justify-content: center;
+    padding: 0 20px;
   }
+
   .loaderBlue, .loaderWrapper {
     display: none;
   }
 
   .titleWrapper {
-    width: 320px;
     margin-bottom: 0;
   }
 
@@ -141,7 +147,6 @@
 
   .imgWrapper {
     margin-bottom: 30px;
-    width: 320px;
   }
 
   .imgWrapper img {

@@ -25,9 +25,9 @@
   font-size: var(--font-size-l);
 }
 
-@media (max-width: 360px) {
+@media screen and (min-width: 360px) and (max-width: 400px) {
   .contactWrapper {
-    padding: 5px;
+    padding: 0 20px;
   }
 
   .titleWrapper {
