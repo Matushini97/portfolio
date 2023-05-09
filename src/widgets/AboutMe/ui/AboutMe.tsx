@@ -3,7 +3,7 @@ import aboutMe from "src/assets/abou-me-pic.jpg";
 
 const AboutMe = () => {
   return (
-    <section className={s.aboutMeSection}>
+    <section className={s.aboutMeSection} id='about'>
       <div className={s.aboutMeWrapper}>
         <div className={`${s.imgWrapper}`}>
           <img src={aboutMe} alt="Photo by Rahul Chakraborty on Unsplash" />

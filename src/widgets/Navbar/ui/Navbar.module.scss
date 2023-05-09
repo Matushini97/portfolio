@@ -8,15 +8,19 @@
   justify-content: space-between;
   padding: 0 40px;
   font-family: "Poppins", sans-serif;
-}
-
-.mainHeader h3 {
-  font-size: 25px;
+  position: sticky;
+  top: 0;
+  //left: 0;
+  width: 100%;
+  z-index: 10;
+  background: white;
 }
 
 .navWrapper a {
+  font-size: 20px;
   margin-right: 10px;
   transition: color 0.15s ease;
+  cursor: pointer;
 }
 
 .navWrapper a:hover {
@@ -24,5 +28,6 @@
 }
 
 .logo {
-  font-size: 25px;
+  font-size: 30px;
+  cursor: pointer;
 }

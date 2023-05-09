@@ -3,7 +3,7 @@ import { ContactWidget } from "../../ContactWidget";
 
 const Contact = () => {
   return (
-    <section className={s.contactSection}>
+    <section className={s.contactSection} id="contact">
       <div className={s.contactWrapper}>
         <div className={s.titleWrapper}>
           <h3>Contact</h3>
