@@ -22,10 +22,10 @@ const PortfolioItem = (props: PortfolioItemPropsType) => {
           })}
         </div>
         <div className={s.linkWrapper}>
-          <a href={props.codeSource}>
+          <a href={props.codeSource} target={"_blank"}>
             <h3>Code</h3>
           </a>
-          <a href={props.url}>
+          <a href={props.url} target={"_blank"}>
             <h3>Live Demo</h3>
           </a>
         </div>
