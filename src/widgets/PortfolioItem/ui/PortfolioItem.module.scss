@@ -1,0 +1,51 @@
+.ItemWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  border-radius: 10px;
+  //border: 0.1px solid grey;
+  background: #faf7f7;
+  padding: 10px;
+
+}
+
+.InfoWrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.InfoWrapper h2 {
+  font-size: var(--font-size-s);
+}
+
+.ImageWrapper {
+
+}
+
+.linkWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.linkWrapper a:hover {
+  color: #84CDFAFF;
+}
+
+.stackWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.stackItem {
+  background: white;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 38px -1px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0 0 38px -1px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 0 38px -1px rgba(34, 60, 80, 0.2);
+  font-weight: bold;
+  border-radius: 3px;
+}
